@@ -9,9 +9,11 @@ struct UserProfile: Identifiable {
 
 struct DiscoveryView: View {
     @State private var profiles = [
-        UserProfile(id: UUID(), name: "Alex", age: 25, imageName: "alex"),
-        UserProfile(id: UUID(), name: "Jamie", age: 28, imageName: "jamie"),
-        UserProfile(id: UUID(), name: "Sam", age: 22, imageName: "sam")
+        UserProfile(id: UUID(), name: "Frances", age: 25, imageName: "frances"),
+        UserProfile(id: UUID(), name: "Rowan", age: 28, imageName: "rowan"),
+        UserProfile(id: UUID(), name: "Chastity", age: 25, imageName: "chastity"),
+        UserProfile(id: UUID(), name: "Iris", age: 22, imageName: "iris"),
+        UserProfile(id: UUID(), name: "Bex", age: 22, imageName: "bex")
     ]
     
     @State private var likedProfiles: [UUID] = []

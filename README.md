@@ -1,4 +1,4 @@
-# Basic Social Dating iPhone App
+# Basic Smut Book Dating iPhone App
 
 This is a minimal SwiftUI-based dating app sample for iOS, featuring user login/registration and a simple discovery/swipe screen.  
 You can expand it with chat, profile editing, and real authentication/back-end as needed.
